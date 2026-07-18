@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Installation documentation
+    url: https://github.com/joaojmendes/tenant-wide-mega-menu/blob/main/docs/INSTALLATION.md
+    about: Review tenant-wide installation and permission requirements.
+  - name: Troubleshooting guide
+    url: https://github.com/joaojmendes/tenant-wide-mega-menu/blob/main/docs/TROUBLESHOOTING.md
+    about: Check common problems before filing an issue.

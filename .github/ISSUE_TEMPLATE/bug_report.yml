@@ -1,0 +1,89 @@
+name: Bug report
+description: Report a reproducible Tenant Wide Mega Menu defect
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for testing. Remove tenant names, identities, tokens, license data, and confidential URLs before submitting.
+  - type: input
+    id: version
+    attributes:
+      label: Package version
+      placeholder: "1.1.1"
+    validations:
+      required: true
+  - type: dropdown
+    id: user_type
+    attributes:
+      label: User context
+      options:
+        - Ordinary user
+        - Configured menu manager
+        - SharePoint Administrator
+        - Global Administrator
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and operating system
+      placeholder: "Edge 138 on Windows 11"
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Installation or activation
+        - API permissions or licensing
+        - Menu rendering
+        - Settings and saving
+        - Company Tools
+        - Audience targeting
+        - Desktop navigation
+        - Mobile navigation
+        - Images or icons
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      placeholder: |
+        1. Open...
+        2. Select...
+        3. Observe...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Sanitized diagnostics
+      description: Add sanitized console errors, network status codes, screenshots, or Component Properties JSON. Do not include secrets or personal data.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Safety checks
+      options:
+        - label: I searched existing issues.
+          required: true
+        - label: I removed confidential and security-sensitive information.
+          required: true
+

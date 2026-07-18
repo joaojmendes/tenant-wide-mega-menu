@@ -1,0 +1,5 @@
+# Release packages are attached to GitHub Releases, never committed.
+*.sppkg
+*.sha256
+.DS_Store
+
