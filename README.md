@@ -68,7 +68,7 @@ All users can see and launch configured menu entries and tools, subject to audie
 
 - Microsoft Entra Global Administrators;
 - Microsoft Entra SharePoint Administrators; or
-- members of the Entra groups configured in `configurationEditorsGroupIds`.
+- members of the Entra groups configured in `configurationEditorsGroupIds` in the extenstion Properties via Teant Wide Extentions list.
 
 ## Testing and feedback
 
