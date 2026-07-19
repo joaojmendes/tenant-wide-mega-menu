@@ -56,7 +56,7 @@ When membership resolution fails, targeted entries are hidden by design.
 ## License or entitlement validation fails
 
 - Confirm `License-manager-auth / user_impersonation` was approved.
-- Confirm the browser can reach `license.spteckapps.com` and `licenses-api.spteckapps.com`.
+- Confirm the browser can reach `license.spteckapps.com`.
 - Check whether a proxy, firewall, Conditional Access policy, or browser extension blocks the request.
 - Complete the trial or entitlement flow with the same tenant and user used for testing.
 
