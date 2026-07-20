@@ -4,7 +4,7 @@ Tenant Wide Mega Menu is a SharePoint Framework Application Customizer that adds
 
 > This is a binary distribution and support repository. The source code is not published here. Use GitHub Issues to report test results, installation problems, and product defects.
 
-[Download the latest `.sppkg`](https://github.com/joaojmendes/tenant-wide-mega-menu/releases/latest/download/sharepoint-mega-menu.sppkg) · [Installation guide](docs/INSTALLATION.md) · [Configuration guide](docs/CONFIGURATION.md) · [Report a problem](https://github.com/joaojmendes/tenant-wide-mega-menu/issues/new/choose)
+[Download the latest `.sppkg`]([https://github.com/joaojmendes/tenant-wide-mega-menu/releases/latest/download/sharepoint-mega-menu.sppkg](https://github.com/joaojmendes/tenant-wide-mega-menu/blob/main/sharepoint-mega-menu.sppkg)) · [Installation guide](docs/INSTALLATION.md) · [Configuration guide](docs/CONFIGURATION.md) · [Report a problem](https://github.com/joaojmendes/tenant-wide-mega-menu/issues/new/choose)
 
 ## What it provides
 
@@ -30,7 +30,7 @@ This package is not intended for SharePoint Server or classic SharePoint pages.
 
 ## Quick start
 
-1. Download `sharepoint-mega-menu.sppkg` from the [latest release](https://github.com/joaojmendes/tenant-wide-mega-menu/releases/latest).
+1. Download `sharepoint-mega-menu.sppkg`,  [here]([https://github.com/joaojmendes/tenant-wide-mega-menu/blob/main/sharepoint-mega-menu.sppkg).
 2. Upload it to **Apps for SharePoint** in the tenant App Catalog.
 3. Select **Enable this app and add it to all sites**, then deploy it.
 4. Approve the requested API permissions in the SharePoint Admin Center.
@@ -68,7 +68,7 @@ All users can see and launch configured menu entries and tools, subject to audie
 
 - Microsoft Entra Global Administrators;
 - Microsoft Entra SharePoint Administrators; or
-- members of the Entra groups configured in `configurationEditorsGroupIds` in the extenstion Properties via Teant Wide Extentions list.
+- members of the Entra groups configured in `configurationEditorsGroupIds` in the extension Properties via Tenant-Wide Extensions list.
 
 ## Testing and feedback
 
