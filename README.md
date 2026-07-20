@@ -4,7 +4,7 @@ Tenant Wide Mega Menu is a SharePoint Framework Application Customizer that adds
 
 > This is a binary distribution and support repository. The source code is not published here. Use GitHub Issues to report test results, installation problems, and product defects.
 
-[Download the latest [`.sppkg`]([https://github.com/joaojmendes/tenant-wide-mega-menu/releases/latest/download/sharepoint-mega-menu.sppkg](https://github.com/joaojmendes/tenant-wide-mega-menu/blob/main/sharepoint-mega-menu.sppkg)) · [Installation guide](docs/INSTALLATION.md) · [Configuration guide](docs/CONFIGURATION.md) · [Report a problem](https://github.com/joaojmendes/tenant-wide-mega-menu/issues/new/choose)
+[Download the latest]([https://github.com/joaojmendes/tenant-wide-mega-menu/releases/latest/download/sharepoint-mega-menu.sppkg](https://github.com/joaojmendes/tenant-wide-mega-menu/blob/main/sharepoint-mega-menu.sppkg)) · [Installation guide](docs/INSTALLATION.md) · [Configuration guide](docs/CONFIGURATION.md) · [Report a problem](https://github.com/joaojmendes/tenant-wide-mega-menu/issues/new/choose)
 
 ## What it provides
 
