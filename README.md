@@ -1,6 +1,6 @@
 # Tenant Wide Mega Menu for SharePoint Online
 
-Tenant Wide Mega Menu is a SharePoint Framework Application Customizer that adds shared, responsive navigation to modern SharePoint Online pages.
+Tenant Wide Mega Menu is a SharePoint Framework Application Customizer that adds shared, responsive navigation to modern SharePoint Online pages. The Tenant Wide Mega Menu doesn't replace the OOB Navigation, only add a new Global Navigation that will be available on all sites on the tenant.
 
 > This is a binary distribution and support repository. The source code is not published here. Use GitHub Issues to report test results, installation problems, and product defects.
 
