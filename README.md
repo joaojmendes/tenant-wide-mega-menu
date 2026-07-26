@@ -8,6 +8,12 @@ Tenant Wide Mega Menu is a SharePoint Framework Application Customizer that adds
 
 [Download the latest `sharepoint-mega-menu.sppkg`](https://github.com/joaojmendes/tenant-wide-mega-menu/raw/main/sharepoint-mega-menu.sppkg) · [Installation guide](docs/INSTALLATION.md) · [Configuration guide](docs/CONFIGURATION.md) · [Report a problem](https://github.com/joaojmendes/tenant-wide-mega-menu/issues/new/choose)
 
+## Preview
+
+[![Tenant Wide Mega Menu displayed on a modern SharePoint page](docs/images/preview/01-navigation-overview.png)](docs/PREVIEW.md)
+
+See the menu, featured panels, Company Tools, Viva Dashboard, Microsoft 365 Service Health, administration experience, and Workspace in a Box integration in the [complete preview gallery](docs/PREVIEW.md).
+
 ## What it provides
 
 - One menu configuration shared across the SharePoint tenant.
@@ -87,6 +93,7 @@ Use the [issue forms](https://github.com/joaojmendes/tenant-wide-mega-menu/issue
 
 ## Documentation
 
+- [Product preview gallery](docs/PREVIEW.md)
 - [Install and activate](docs/INSTALLATION.md)
 - [Configure and manage](docs/CONFIGURATION.md)
 - [Troubleshoot](docs/TROUBLESHOOTING.md)
