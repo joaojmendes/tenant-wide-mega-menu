@@ -1,0 +1,43 @@
+name: Enforce issues-only contributions
+
+on:
+  pull_request_target:
+    types:
+      - opened
+      - reopened
+      - ready_for_review
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  close-external-pull-request:
+    if: github.event.pull_request.author_association != 'OWNER'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Explain policy and close pull request
+        uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd
+        with:
+          script: |
+            const message = [
+              'Thank you for your interest in Tenant Wide Mega Menu.',
+              '',
+              'This is an issues-only binary distribution and support repository. External pull requests are not accepted.',
+              'Please submit bug reports, testing feedback, or feature requests through GitHub Issues:',
+              'https://github.com/joaojmendes/tenant-wide-mega-menu/issues/new/choose'
+            ].join('\n');
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: message
+            });
+
+            await github.rest.pulls.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.issue.number,
+              state: 'closed'
+            });
