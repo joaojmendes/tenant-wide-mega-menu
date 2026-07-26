@@ -19,13 +19,7 @@ Menu entries can open rich panels containing a featured title and description, m
 [![Microsoft 365 Service Health panel opened from the Mega Menu](images/preview/03-m365-service-health.png)](images/preview/03-m365-service-health.png)
 
 The Service Health action presents current Microsoft 365 advisories without requiring users to leave the SharePoint page.
-
-### Localized Service Health view
-
-[![Localized Microsoft 365 Service Health panel](images/preview/09-service-health-localized.png)](images/preview/09-service-health-localized.png)
-
-Widget labels and service information follow the user's supported language and regional settings.
-
+ 
 ## Viva Dashboard
 
 [![Viva Dashboard with notifications, assigned tasks, news, and service health](images/preview/04-viva-dashboard.png)](images/preview/04-viva-dashboard.png)
