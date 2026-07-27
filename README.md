@@ -74,8 +74,8 @@ Review and approve these requests according to your organization's security and 
 
 All users can see and launch configured menu entries and tools, subject to audience targeting. Management is available only to:
 
-- Microsoft Entra Global Administrators;
-- Microsoft Entra SharePoint Administrators; or
+- Global Administrators;
+- SharePoint Administrators; or
 - members of the Entra groups configured in `configurationEditorsGroupIds` in the extension Properties via Tenant-Wide Extensions list.
 
 ## Testing and feedback
