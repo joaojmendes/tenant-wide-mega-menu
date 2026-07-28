@@ -30,11 +30,9 @@ A recommended pilot-to-production sequence is:
 1. Upload and deploy `sharepoint-mega-menu.sppkg` in the pilot site's site collection App Catalog.
 2. Open a modern page in that site as a Global Administrator or SharePoint Administrator.
 3. Build, save, and validate the shared menu configuration.
-4. Back up the configuration JSON before the production rollout.
-5. Upload the package to the tenant App Catalog and enable it for all sites.
-6. Configure the production `configurationEditorsGroupIds` in **Tenant Wide Extensions**.
-7. Verify that the tenant-wide extension loads the menu created during the pilot.
-8. Remove the site-level pilot installation or custom action to prevent the extension from loading twice on the pilot site.
+4. Configure the production `configurationEditorsGroupIds` in **Tenant Wide Extensions**.
+5. Verify that the tenant-wide extension loads the menu created during the pilot.
+6. Remove the site-level pilot installation or custom action to prevent the extension from loading twice on the pilot site.
 
 ## 1. Download and verify the package
 
