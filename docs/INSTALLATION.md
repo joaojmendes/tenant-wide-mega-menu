@@ -13,6 +13,29 @@ This guide is for SharePoint and Microsoft 365 administrators evaluating Tenant 
 
 Start in a test tenant or controlled pilot group whenever possible.
 
+## Install on a Site App Catalog
+
+The solution can be deployed to a site collection App Catalog for testing and pre-configuration before it is activated tenant-wide.
+
+For the pilot, use a Global Administrator or SharePoint Administrator account. These roles can open the menu settings without configuring `configurationEditorsGroupIds` for the temporary site-level deployment. The account must also have the SharePoint permissions required to provision and update the shared configuration on the tenant App Catalog site.
+
+The menu has one shared configuration stored globally in the tenant. If the pilot site and the production deployment are in the same tenant, the tenant-wide deployment automatically uses the configuration created during the pilot. No configuration export or import is required.
+
+The configuration can also be exported and imported as JSON when moving between different tenants or environments. Review environment-specific references after importing, including site URLs, image URLs, and Microsoft Entra group IDs.
+
+`configurationEditorsGroupIds` is a deployment property and is not included in the shared menu configuration. For the tenant-wide deployment, configure the production editor group IDs separately by editing the extension's **Component Properties** in the **Tenant Wide Extensions** list on the tenant App Catalog site.
+
+A recommended pilot-to-production sequence is:
+
+1. Upload and deploy `sharepoint-mega-menu.sppkg` in the pilot site's site collection App Catalog.
+2. Open a modern page in that site as a Global Administrator or SharePoint Administrator.
+3. Build, save, and validate the shared menu configuration.
+4. Back up the configuration JSON before the production rollout.
+5. Upload the package to the tenant App Catalog and enable it for all sites.
+6. Configure the production `configurationEditorsGroupIds` in **Tenant Wide Extensions**.
+7. Verify that the tenant-wide extension loads the menu created during the pilot.
+8. Remove the site-level pilot installation or custom action to prevent the extension from loading twice on the pilot site.
+
 ## 1. Download and verify the package
 
 Download these files from the [latest GitHub release](https://github.com/joaojmendes/tenant-wide-mega-menu/releases/latest):
