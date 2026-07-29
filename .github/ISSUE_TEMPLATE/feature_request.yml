@@ -4,6 +4,14 @@ title: "[Feature]: "
 labels:
   - enhancement
 body:
+  - type: input
+    id: tenant_id
+    attributes:
+      label: Microsoft 365 tenant ID
+      description: Enter the Directory (tenant) ID as a GUID. It will be publicly visible; do not enter a tenant name, domain, or secret.
+      placeholder: "00000000-0000-0000-0000-000000000000"
+    validations:
+      required: true
   - type: textarea
     id: problem
     attributes:
@@ -39,4 +47,3 @@ body:
       options:
         - label: I searched existing issues and did not find the same request.
           required: true
-

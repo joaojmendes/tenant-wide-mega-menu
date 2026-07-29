@@ -15,6 +15,14 @@ body:
       placeholder: "1.1.1"
     validations:
       required: true
+  - type: input
+    id: tenant_id
+    attributes:
+      label: Microsoft 365 tenant ID
+      description: Enter the Directory (tenant) ID as a GUID. It will be publicly visible; do not enter a tenant name, domain, or secret.
+      placeholder: "00000000-0000-0000-0000-000000000000"
+    validations:
+      required: true
   - type: dropdown
     id: user_type
     attributes:
@@ -86,4 +94,3 @@ body:
           required: true
         - label: I removed confidential and security-sensitive information.
           required: true
-
